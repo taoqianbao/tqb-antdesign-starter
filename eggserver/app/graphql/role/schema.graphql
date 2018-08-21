@@ -1,0 +1,20 @@
+
+type Role {
+  roleId: Int!
+  name: String!
+  proleId: Int!
+}
+
+type RoleList {
+  count: Int!
+  rolelist: [Role]!
+}
+
+type RoleMenu {
+   menuId:Int!
+}
+
+input RoleInput {
+  name: String!
+  proleId: Int!
+}
